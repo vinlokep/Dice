@@ -13,16 +13,16 @@
 
 # -*- coding: utf-8 -*-
 
-# Module author: @lavelars
+# Module no author: @Loversint
 
 from .. import loader, utils
 
 
 @loader.tds
 class FiltersMod(loader.Module):
-    """Filters module"""
+    """Autootvet Module"""
 
-    strings = {"name": "Filters"}
+    strings = {"name": "Autootvet"}
 
     async def client_ready(self, client, db):
         self.db = db

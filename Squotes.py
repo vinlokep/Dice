@@ -216,7 +216,7 @@ class ShitQuotesMod(loader.Module):
 
     """
 
-    Quotes by @sh1tchannel
+    Quotes by @Loversint
 
     """
 

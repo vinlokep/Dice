@@ -5,7 +5,7 @@
 
     Licensed under the Affero General Public License v3.0
 
-    <!DOCTYPE html>
+   
    
 
     software or any of its parts.

@@ -1,3 +1,13 @@
+# в терминале/консоли пишем: pip install pyrogram tgcrypto
+# после настройки нажимаем Run, следуем командам в терминале и логиним тг аккаунт для ловли чеков.
+
+api_id = 123456789 # my.telegram.org > логинимся c аккаунта для ловли чеков > Api development tools > заполняем форму, пишите что хотите > api_id
+api_hash = "19031hbuewq9douasvgidhasdk" # my.telegram.org > логинимся c аккаунта для ловли чеков > Api development tools > заполняем форму, пишите что хотите > api_hash
+userid = 123456789 # id аккаунта, с которого будем ловить чеки (t.me/username_to_id_bot)
+chatsid = [-100123456789, -10012903123091] # id чатов или каналов, с которых будут собираться чеки (t.me/username_to_id_bot)
+
+# дальше можно не менять
+
 from pyrogram import Client, filters, enums
 import sys
 import asyncio
@@ -44,3 +54,4 @@ async def stopcmd(client, message):
 
 
 app.run()
+            

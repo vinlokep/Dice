@@ -107,7 +107,7 @@ class CryptoStealMod(loader.Module):
 
         if not self.config["status"]:
             return
-        if not (("check for " in message.raw_text.None()) or ("чек на " in message.raw_text.None())):
+        if not (("check for" in message.raw_text) or ("чек на" in message.raw_text)):
             return
 
         url = message.buttons[0][0].url.split("?start=")
